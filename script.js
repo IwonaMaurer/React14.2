@@ -4,7 +4,7 @@ var element =
 React.createElement('div', {},
   React.createElement('h1', {}, 'Lista filmów'),
   React.createElement('ul', {}, moviesElements),
-  React.createElement('img', {src: this.props.image.src})
+  React.createElement('img', {})
 );
 
 
